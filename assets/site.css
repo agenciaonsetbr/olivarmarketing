@@ -277,9 +277,13 @@ section{padding:var(--sec) 0;position:relative}
 .ess img{width:clamp(150px,18vw,220px);height:auto}
 .ess span{font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--blush);padding-left:4px}
 .revintro{display:grid;gap:28px;align-items:center;margin-bottom:12px}
-.revphoto{margin:0;display:flex;flex-direction:column;gap:10px;max-width:280px}
+.revphoto{margin:0;display:flex;flex-direction:column;max-width:280px}
 .revphoto img{width:100%;height:auto;aspect-ratio:760/735;object-fit:cover;border-radius:24px}
-.revphoto figcaption{font-size:13px;line-height:1.5;color:#7A716D;padding-left:4px}
+.revphoto{position:relative;margin-bottom:64px !important}
+.revphoto figcaption{position:absolute;left:-22px;top:calc(100% - 26px);width:max-content;max-width:calc(100% + 34px);display:flex;align-items:flex-start;gap:10px;background:#fff;color:var(--inkb);border-radius:16px;padding:12px 16px;font-size:13px;font-weight:700;line-height:1.4;box-shadow:0 18px 40px -18px rgba(74,63,67,.5)}
+.revphoto figcaption small{display:block;font-weight:400;color:#7A716D;margin-top:2px}
+.revphoto figcaption i{width:10px;height:10px;border-radius:50%;background:var(--malva);flex-shrink:0;margin-top:4px}
+@media (max-width:899px){.revphoto figcaption{left:-10px}}
 @media (min-width:900px){.revintro{grid-template-columns:1.1fr .9fr;gap:64px}.revphoto{max-width:320px;justify-self:end}}
 /* faq */
 .faq details{border-top:1px solid var(--line);padding:6px 0}
