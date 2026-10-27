@@ -285,6 +285,15 @@ section{padding:var(--sec) 0;position:relative}
 .revphoto figcaption i{width:10px;height:10px;border-radius:50%;background:var(--malva);flex-shrink:0;margin-top:4px}
 @media (max-width:899px){.revphoto figcaption{left:-10px}}
 @media (min-width:900px){.revintro{grid-template-columns:1.1fr .9fr;gap:64px}.revphoto{max-width:320px;justify-self:end}}
+footer .social{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+footer .social a{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:8px 14px 8px 10px;border-radius:999px;border:1px solid rgba(242,238,235,.25);font-size:14px;transition:background .2s}
+footer .social a:hover{background:rgba(242,238,235,.1)}
+footer .social svg{width:20px;height:20px}
+.wafab{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:40;width:52px;height:52px;border-radius:50%;background:var(--wine);color:var(--off);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 30px -10px rgba(74,63,67,.6);transition:transform .2s,bottom .3s}
+.wafab:hover{transform:scale(1.06)}
+.wafab svg{width:26px;height:26px}
+body.sticky-on .wafab{bottom:calc(92px + env(safe-area-inset-bottom,0px))}
+@media (min-width:760px){.wafab{right:24px;bottom:24px}body.sticky-on .wafab{bottom:24px}}
 /* faq */
 .faq details{border-top:1px solid var(--line);padding:6px 0}
 .faq details:last-child{border-bottom:1px solid var(--line)}
