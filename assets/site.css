@@ -273,6 +273,9 @@ section{padding:var(--sec) 0;position:relative}
 .pcard.dark .res b{color:var(--blush)}
 .pull{font-size:clamp(24px,3.4vw,40px);line-height:1.25;font-weight:300;color:var(--inkb);max-width:26ch;padding-left:22px;border-left:4px solid var(--malva)}
 .pull b{font-weight:700}
+.ess{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-bottom:6px}
+.ess img{width:clamp(220px,34vw,380px);height:auto}
+.ess span{font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--blush);padding-left:4px}
 /* faq */
 .faq details{border-top:1px solid var(--line);padding:6px 0}
 .faq details:last-child{border-bottom:1px solid var(--line)}
