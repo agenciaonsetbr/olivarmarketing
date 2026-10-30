@@ -370,7 +370,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:8px 24px;font-size:14px}
 }
 /* hero inteira na tela no desktop (não afeta mobile/tablet) */
 @media (min-width:1080px){
-  .hero{min-height:calc(100vh - 68px);min-height:calc(100svh - 68px);display:flex;align-items:center;padding:clamp(28px,5vh,64px) 0}
+  .hero{min-height:min(calc(100vh - 68px),920px);min-height:min(calc(100svh - 68px),920px);display:flex;align-items:center;padding:clamp(28px,5vh,64px) 0}
   .hero .wrap{width:100%}
   .hero .grid{gap:56px}
   .hero .stack{gap:clamp(14px,2.2vh,24px)}
