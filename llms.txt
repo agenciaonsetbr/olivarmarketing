@@ -1,6 +1,6 @@
 # Olivar
 
-> Olivar é uma agência de marketing consultivo. Todo projeto começa por um diagnóstico do negócio, do público e do comportamento de consumo, e só depois vem o plano de marketing. Atendemos empresas no ABC Paulista e em todo o Brasil, com reuniões online ou presenciais com agendamento.
+> Olivar é uma agência de marketing consultivo. Todo projeto começa por um diagnóstico do negócio, do público e do comportamento de consumo, e só depois vem o plano de marketing. Com base em São Bernardo do Campo, atendemos empresas no ABC Paulista e em todo o Brasil, com reuniões online ou presenciais com agendamento.
 
 ## Como trabalhamos
 
