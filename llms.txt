@@ -1,6 +1,6 @@
 # Olivar
 
-> Olivar é uma agência de marketing consultivo. Todo projeto começa por um diagnóstico do negócio, do público e do comportamento de consumo, e só depois vem o plano de marketing. Atendemos empresas no ABC Paulista e em todo o Brasil, com reuniões online ou presenciais com agendamento.
+> Olivar é uma agência de marketing consultivo. Todo projeto começa por um diagnóstico do negócio, do público e do comportamento de consumo, e só depois vem o plano de marketing. Com base em São Bernardo do Campo, atendemos empresas no ABC Paulista e em todo o Brasil, com reuniões online ou presenciais com agendamento.
 
 ## Como trabalhamos
 
@@ -31,6 +31,7 @@
 ## Páginas
 
 - [Página inicial](https://olivarmarketing.com/): método, serviços, resultados, depoimentos e perguntas frequentes.
+- [Agência de marketing no ABC Paulista](https://olivarmarketing.com/agencia-de-marketing-abc.html): atendimento em Santo André, São Bernardo do Campo, São Caetano do Sul, Diadema e Mauá, com reuniões online ou presenciais.
 - [Como funciona o diagnóstico](https://olivarmarketing.com/diagnostico.html): as três etapas, do pré-diagnóstico gratuito ao plano mensal.
 
 ## Contato
